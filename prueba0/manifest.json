@@ -1,0 +1,26 @@
+{
+  "name": "hack the system",
+  "description": "This extension says everybody hack the system is easy. BREAK THE LIMITS",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    
+    "default_title": "Hackeatela",
+    "default_icon": {
+      "16": "/images/hacker16.png",
+      "32": "/images/hacker32.png",
+      "48": "/images/hacker48.png",
+      "128": "/images/hacker128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/hacker16.png",
+    "32": "/images/hacker32.png",
+    "48": "/images/hacker48.png",
+    "128": "/images/hacker128.png"
+  }
+}
